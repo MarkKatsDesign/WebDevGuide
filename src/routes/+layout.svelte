@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 	import { topics, categories, getTopicsByCategory } from '$lib/data/topics';
 
 	let sidebarOpen = false;
@@ -13,7 +14,7 @@
 	<aside class="hidden lg:flex lg:flex-col w-72 border-r border-dark-700 bg-dark-900/50 backdrop-blur-sm fixed h-full">
 		<!-- Logo -->
 		<div class="p-6 border-b border-dark-700">
-			<a href="/" class="flex items-center gap-3">
+			<a href="{base}/" class="flex items-center gap-3">
 				<div class="w-10 h-10 rounded-lg bg-gradient-to-br from-accent-blue to-accent-purple flex items-center justify-center">
 					<span class="text-white font-bold text-lg">W</span>
 				</div>
@@ -35,9 +36,9 @@
 						{#each getTopicsByCategory(category) as topic}
 							<li>
 								<a
-									href={topic.implemented ? `/topics/${topic.slug}` : '#'}
+									href={topic.implemented ? `${base}/topics/${topic.slug}` : '#'}
 									class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors
-										{currentPath === `/topics/${topic.slug}`
+										{currentPath === `${base}/topics/${topic.slug}`
 											? 'bg-accent-blue/20 text-accent-blue'
 											: topic.implemented
 												? 'text-gray-400 hover:text-white hover:bg-dark-800'
@@ -67,7 +68,7 @@
 	<!-- Mobile Header -->
 	<div class="lg:hidden fixed top-0 left-0 right-0 z-50 bg-dark-900/95 backdrop-blur border-b border-dark-700">
 		<div class="flex items-center justify-between p-4">
-			<a href="/" class="flex items-center gap-2">
+			<a href="{base}/" class="flex items-center gap-2">
 				<div class="w-8 h-8 rounded-lg bg-gradient-to-br from-accent-blue to-accent-purple flex items-center justify-center">
 					<span class="text-white font-bold">W</span>
 				</div>
@@ -99,7 +100,7 @@
 		></div>
 		<aside class="lg:hidden fixed top-0 left-0 bottom-0 z-50 w-72 bg-dark-900 border-r border-dark-700 overflow-y-auto">
 			<div class="p-6 border-b border-dark-700">
-				<a href="/" class="flex items-center gap-3">
+				<a href="{base}/" class="flex items-center gap-3">
 					<div class="w-10 h-10 rounded-lg bg-gradient-to-br from-accent-blue to-accent-purple flex items-center justify-center">
 						<span class="text-white font-bold text-lg">W</span>
 					</div>
@@ -119,9 +120,9 @@
 							{#each getTopicsByCategory(category) as topic}
 								<li>
 									<a
-										href={topic.implemented ? `/topics/${topic.slug}` : '#'}
+										href={topic.implemented ? `${base}/topics/${topic.slug}` : '#'}
 										class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-colors
-											{currentPath === `/topics/${topic.slug}`
+											{currentPath === `${base}/topics/${topic.slug}`
 												? 'bg-accent-blue/20 text-accent-blue'
 												: topic.implemented
 													? 'text-gray-400 hover:text-white hover:bg-dark-800'

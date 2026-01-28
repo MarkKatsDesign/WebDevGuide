@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { Topic } from '$lib/data/topics';
 	import { fly } from 'svelte/transition';
+	import { base } from '$app/paths';
 
 	export let topic: Topic;
 	export let index: number = 0;
@@ -27,7 +28,7 @@
 </script>
 
 <a
-	href={topic.implemented ? `/topics/${topic.slug}` : '#'}
+	href={topic.implemented ? `${base}/topics/${topic.slug}` : '#'}
 	class="block group"
 	in:fly={{ y: 20, duration: 300, delay: index * 50 }}
 >

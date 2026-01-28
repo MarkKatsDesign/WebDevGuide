@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import { fly, fade } from 'svelte/transition';
+	import { base } from '$app/paths';
 
 	// Topic components
 	import HttpTopic from '$lib/components/topics/http/HttpTopic.svelte';
@@ -31,7 +32,7 @@
 			<div in:fly={{ y: -10, duration: 300 }}>
 				<!-- Breadcrumb -->
 				<nav class="flex items-center gap-2 text-sm text-gray-500 mb-4">
-					<a href="/" class="hover:text-white transition-colors">Home</a>
+					<a href="{base}/" class="hover:text-white transition-colors">Home</a>
 					<span>/</span>
 					<span class="text-gray-400">{topic.category}</span>
 					<span>/</span>
@@ -65,7 +66,7 @@
 	<footer class="border-t border-dark-700 mt-12">
 		<div class="max-w-5xl mx-auto px-6 py-6">
 			<a
-				href="/"
+				href="{base}/"
 				class="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
 			>
 				<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
