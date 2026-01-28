@@ -4,6 +4,7 @@
 
 	// Topic components
 	import HttpTopic from '$lib/components/topics/http/HttpTopic.svelte';
+	import DnsTopic from '$lib/components/topics/dns/DnsTopic.svelte';
 
 	export let data: PageData;
 
@@ -11,7 +12,8 @@
 
 	// Map slugs to components
 	const topicComponents: Record<string, typeof HttpTopic> = {
-		'http': HttpTopic
+		'http': HttpTopic,
+		'dns': DnsTopic
 	};
 </script>
 

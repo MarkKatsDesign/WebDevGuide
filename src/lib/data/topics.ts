@@ -31,7 +31,7 @@ export const topics: Topic[] = [
 		icon: '🔍',
 		color: 'cyan',
 		category: 'Foundation',
-		implemented: false
+		implemented: true
 	},
 	{
 		slug: 'internet',

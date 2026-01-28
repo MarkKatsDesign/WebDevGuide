@@ -18,10 +18,9 @@ Technical interviews often ask about HTTP, DNS, browser rendering, and other web
 ### Currently Available
 
 - [x] **HTTP/HTTPS** - Request/response cycle, methods, status codes, headers, TLS handshake
+- [x] **DNS** - Domain resolution, hierarchy, record types, caching, TTL
 
 ### Coming Soon
-
-- [ ] DNS - Domain resolution, hierarchy, caching
 - [ ] How the Internet Works - TCP/IP, packets, routing
 - [ ] Browser Rendering - DOM, CSSOM, render tree, paint
 - [ ] JavaScript Event Loop - Call stack, task queue, microtasks
