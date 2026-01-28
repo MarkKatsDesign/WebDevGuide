@@ -40,7 +40,7 @@ export const topics: Topic[] = [
 		icon: '🌍',
 		color: 'green',
 		category: 'Foundation',
-		implemented: false
+		implemented: true
 	},
 
 	// Phase 2: Browser & Rendering

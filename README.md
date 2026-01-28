@@ -19,6 +19,7 @@ Technical interviews often ask about HTTP, DNS, browser rendering, and other web
 
 - [x] **HTTP/HTTPS** - Request/response cycle, methods, status codes, headers, TLS handshake
 - [x] **DNS** - Domain resolution, hierarchy, record types, caching, TTL
+- [x] **How the Internet Works** - TCP/IP stack, packets, routing, IP addressing, TCP vs UDP
 
 ### Coming Soon
 - [ ] How the Internet Works - TCP/IP, packets, routing
