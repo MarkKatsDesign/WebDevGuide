@@ -2,6 +2,8 @@
 
 A visual, interactive guide to web development concepts. Built for developers who learn better through diagrams, animations, and clear explanations.
 
+**[Live Demo](https://markkatsdesign.github.io/WebDevGuide/)**
+
 ## Why This Exists
 
 Technical interviews often ask about HTTP, DNS, browser rendering, and other web fundamentals. This project provides visual explanations with the exact terminology engineers use, helping you understand and articulate these concepts clearly.
@@ -22,7 +24,6 @@ Technical interviews often ask about HTTP, DNS, browser rendering, and other web
 - [x] **How the Internet Works** - TCP/IP stack, packets, routing, IP addressing, TCP vs UDP
 
 ### Coming Soon
-- [ ] How the Internet Works - TCP/IP, packets, routing
 - [ ] Browser Rendering - DOM, CSSOM, render tree, paint
 - [ ] JavaScript Event Loop - Call stack, task queue, microtasks
 - [ ] REST APIs - Resources, CRUD, best practices
