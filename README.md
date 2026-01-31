@@ -22,10 +22,10 @@ Technical interviews often ask about HTTP, DNS, browser rendering, and other web
 - [x] **HTTP/HTTPS** - Request/response cycle, methods, status codes, headers, TLS handshake
 - [x] **DNS** - Domain resolution, hierarchy, record types, caching, TTL
 - [x] **How the Internet Works** - TCP/IP stack, packets, routing, IP addressing, TCP vs UDP
+- [x] **Browser Rendering** - DOM, CSSOM, render tree, layout, paint, composite
+- [x] **JavaScript Event Loop** - Call stack, task queue, microtasks, async execution
 
 ### Coming Soon
-- [ ] Browser Rendering - DOM, CSSOM, render tree, paint
-- [ ] JavaScript Event Loop - Call stack, task queue, microtasks
 - [ ] REST APIs - Resources, CRUD, best practices
 - [ ] WebSockets - Real-time communication
 - [ ] Authentication - Sessions, JWT, OAuth

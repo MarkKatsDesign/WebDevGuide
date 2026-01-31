@@ -8,6 +8,7 @@
 	import DnsTopic from '$lib/components/topics/dns/DnsTopic.svelte';
 	import InternetTopic from '$lib/components/topics/internet/InternetTopic.svelte';
 	import BrowserRenderingTopic from '$lib/components/topics/browser-rendering/BrowserRenderingTopic.svelte';
+	import EventLoopTopic from '$lib/components/topics/event-loop/EventLoopTopic.svelte';
 
 	export let data: PageData;
 
@@ -18,7 +19,8 @@
 		'http': HttpTopic,
 		'dns': DnsTopic,
 		'internet': InternetTopic,
-		'browser-rendering': BrowserRenderingTopic
+		'browser-rendering': BrowserRenderingTopic,
+		'event-loop': EventLoopTopic
 	};
 </script>
 

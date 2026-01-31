@@ -60,7 +60,7 @@ export const topics: Topic[] = [
 		icon: '🔄',
 		color: 'yellow',
 		category: 'Browser',
-		implemented: false
+		implemented: true
 	},
 
 	// Phase 3: APIs
