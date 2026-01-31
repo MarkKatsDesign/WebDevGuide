@@ -51,7 +51,7 @@ export const topics: Topic[] = [
 		icon: '🖥️',
 		color: 'purple',
 		category: 'Browser',
-		implemented: false
+		implemented: true
 	},
 	{
 		slug: 'event-loop',

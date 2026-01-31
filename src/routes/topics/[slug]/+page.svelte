@@ -7,6 +7,7 @@
 	import HttpTopic from '$lib/components/topics/http/HttpTopic.svelte';
 	import DnsTopic from '$lib/components/topics/dns/DnsTopic.svelte';
 	import InternetTopic from '$lib/components/topics/internet/InternetTopic.svelte';
+	import BrowserRenderingTopic from '$lib/components/topics/browser-rendering/BrowserRenderingTopic.svelte';
 
 	export let data: PageData;
 
@@ -16,7 +17,8 @@
 	const topicComponents: Record<string, typeof HttpTopic> = {
 		'http': HttpTopic,
 		'dns': DnsTopic,
-		'internet': InternetTopic
+		'internet': InternetTopic,
+		'browser-rendering': BrowserRenderingTopic
 	};
 </script>
 
