@@ -9,6 +9,7 @@
 	import InternetTopic from '$lib/components/topics/internet/InternetTopic.svelte';
 	import BrowserRenderingTopic from '$lib/components/topics/browser-rendering/BrowserRenderingTopic.svelte';
 	import EventLoopTopic from '$lib/components/topics/event-loop/EventLoopTopic.svelte';
+	import RestApiTopic from '$lib/components/topics/rest-api/RestApiTopic.svelte';
 
 	export let data: PageData;
 
@@ -20,7 +21,8 @@
 		'dns': DnsTopic,
 		'internet': InternetTopic,
 		'browser-rendering': BrowserRenderingTopic,
-		'event-loop': EventLoopTopic
+		'event-loop': EventLoopTopic,
+		'rest-api': RestApiTopic
 	};
 </script>
 

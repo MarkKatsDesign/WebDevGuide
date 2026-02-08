@@ -71,7 +71,7 @@ export const topics: Topic[] = [
 		icon: '📡',
 		color: 'orange',
 		category: 'APIs',
-		implemented: false
+		implemented: true
 	},
 	{
 		slug: 'websockets',

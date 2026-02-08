@@ -24,9 +24,9 @@ Technical interviews often ask about HTTP, DNS, browser rendering, and other web
 - [x] **How the Internet Works** - TCP/IP stack, packets, routing, IP addressing, TCP vs UDP
 - [x] **Browser Rendering** - DOM, CSSOM, render tree, layout, paint, composite
 - [x] **JavaScript Event Loop** - Call stack, task queue, microtasks, async execution
+- [x] **REST APIs** - Resources, endpoints, CRUD operations, versioning, error handling
 
 ### Coming Soon
-- [ ] REST APIs - Resources, CRUD, best practices
 - [ ] WebSockets - Real-time communication
 - [ ] Authentication - Sessions, JWT, OAuth
 - [ ] Web Security - CORS, XSS, CSRF
