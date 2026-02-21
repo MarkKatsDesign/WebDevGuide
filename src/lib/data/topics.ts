@@ -80,7 +80,7 @@ export const topics: Topic[] = [
 		icon: '⚡',
 		color: 'pink',
 		category: 'APIs',
-		implemented: false
+		implemented: true
 	},
 	{
 		slug: 'graphql',

@@ -10,6 +10,7 @@
 	import BrowserRenderingTopic from '$lib/components/topics/browser-rendering/BrowserRenderingTopic.svelte';
 	import EventLoopTopic from '$lib/components/topics/event-loop/EventLoopTopic.svelte';
 	import RestApiTopic from '$lib/components/topics/rest-api/RestApiTopic.svelte';
+	import WebSocketsTopic from '$lib/components/topics/websockets/WebSocketsTopic.svelte';
 
 	export let data: PageData;
 
@@ -22,7 +23,8 @@
 		'internet': InternetTopic,
 		'browser-rendering': BrowserRenderingTopic,
 		'event-loop': EventLoopTopic,
-		'rest-api': RestApiTopic
+		'rest-api': RestApiTopic,
+		'websockets': WebSocketsTopic
 	};
 </script>
 

@@ -25,9 +25,9 @@ Technical interviews often ask about HTTP, DNS, browser rendering, and other web
 - [x] **Browser Rendering** - DOM, CSSOM, render tree, layout, paint, composite
 - [x] **JavaScript Event Loop** - Call stack, task queue, microtasks, async execution
 - [x] **REST APIs** - Resources, endpoints, CRUD operations, versioning, error handling
+- [x] **WebSockets** - Handshake process, bi-directional messaging, connection lifecycle, comparison with polling/SSE
 
 ### Coming Soon
-- [ ] WebSockets - Real-time communication
 - [ ] Authentication - Sessions, JWT, OAuth
 - [ ] Web Security - CORS, XSS, CSRF
 - [ ] Caching Strategies - Browser, CDN, server
