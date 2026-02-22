@@ -26,6 +26,7 @@ Technical interviews often ask about HTTP, DNS, browser rendering, and other web
 - [x] **JavaScript Event Loop** - Call stack, task queue, microtasks, async execution
 - [x] **REST APIs** - Resources, endpoints, CRUD operations, versioning, error handling
 - [x] **WebSockets** - Handshake process, bi-directional messaging, connection lifecycle, comparison with polling/SSE
+- [x] **GraphQL** - Queries, mutations, subscriptions, schema types, resolvers, REST vs GraphQL comparison
 
 ### Coming Soon
 - [ ] Authentication - Sessions, JWT, OAuth

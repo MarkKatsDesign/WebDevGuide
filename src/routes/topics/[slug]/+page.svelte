@@ -11,6 +11,7 @@
 	import EventLoopTopic from '$lib/components/topics/event-loop/EventLoopTopic.svelte';
 	import RestApiTopic from '$lib/components/topics/rest-api/RestApiTopic.svelte';
 	import WebSocketsTopic from '$lib/components/topics/websockets/WebSocketsTopic.svelte';
+	import GraphQlTopic from '$lib/components/topics/graphql/GraphQlTopic.svelte';
 
 	export let data: PageData;
 
@@ -24,7 +25,8 @@
 		'browser-rendering': BrowserRenderingTopic,
 		'event-loop': EventLoopTopic,
 		'rest-api': RestApiTopic,
-		'websockets': WebSocketsTopic
+		'websockets': WebSocketsTopic,
+		'graphql': GraphQlTopic
 	};
 </script>
 
